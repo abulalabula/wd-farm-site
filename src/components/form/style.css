@@ -1,0 +1,97 @@
+.register {
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    /* grid-column: 4 / 10;
+    grid-row: 3 / 12; */
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, auto);
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 5rem;
+    padding-right: 15rem;
+
+    margin: auto;
+    gap: 1.5rem;
+    max-width: 20rem;
+
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+}
+
+.contact-form__label {
+    grid-column: 1 / 2;
+    grid-row: auto;
+    width: 200%; 
+    margin-bottom: 1rem; 
+}
+
+.contact-form__input {
+    grid-column: 7 / 12;
+    width: 200%;
+    grid-row: auto;
+    margin-bottom: 1rem;
+}
+
+.contact-form__input--suggestion {
+    grid-column: 7 / 12;
+    grid-row: auto;
+    width: 200%;
+    /* grid-row: span 1; */
+    margin-bottom: 1rem;
+}
+
+.contact-form__input, 
+.contact-form__input--suggestion {
+    padding: 0.5rem;
+    border: 1px solid #ccc; 
+    border-radius: 0.5rem; 
+}
+
+.contact-form__input--suggestion {
+    height: 6rem;
+    resize: vertical; 
+}
+
+.register__hint {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+    color: #666;
+}
+
+.register__error {
+    color: red;
+    font-size: 0.7rem;
+    /* margin-bottom: 1rem; */
+    width: 100%;
+    grid-column: 3 / 4;
+    grid-row: auto;
+}
+
+.form-submitted-message {
+    color: green;
+    font-size: 1.5rem;
+    margin-top: 1rem; /* Space above the submission message */
+}
+
+/* Styles for the button */
+.button-link--light {
+    /* padding: 1rem 1rem; */
+    font-size: 1rem;
+    grid-column: 4 / 6;
+    grid-row: auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    width: 300%;
+
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}

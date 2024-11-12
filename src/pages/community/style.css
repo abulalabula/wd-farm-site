@@ -1,0 +1,39 @@
+.community__page {
+    /* display: flex; */
+    /* justify-content: center; */
+
+    gap: 1rem;
+    padding-top: 10rem;
+}
+
+.community__row { 
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr; 
+    align-items: center;
+    gap: 1rem;
+
+    border: 1px solid #ccc; /* Add a light border for a frame-like effect */
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    background-color: #f8f9fa; /* Light background for each row */
+    margin-bottom: 6rem; /* Space between rows */
+
+}
+
+.community__name {
+    font-size: 2rem;
+    font-weight: bold;
+    grid-column: 1;
+    text-align: center;
+}
+
+.community__image {
+    width: 100%;
+    max-width: 300px; /* Adjust as needed */
+    grid-column: 2;
+}
+
+.community__description {
+    font-size: 1.2rem;
+    grid-column: 3;
+}

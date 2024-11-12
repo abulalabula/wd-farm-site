@@ -1,0 +1,55 @@
+.button--light {
+    background-color: mintcream;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.button--dark {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button__link--light {
+    background-color: transparent;
+    /* color: #007bff; */
+    border: 1px solid gainsboro;
+    font-size: 1.2rem;
+    /* left: 15rem; */
+}
+
+.button__link--dark {
+    background-color: transparent;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.button--light, .button--dark {
+    padding: 0.5rem 1rem; 
+    border: none;
+    border-radius: 1rem; 
+    font-size: 1rem; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button__subscribe--light {
+    background-color: mintcream;
+    color: black; 
+}
+
+.button__subscribe--dark {
+    background-color: #556F44;
+    color: whitesmoke; 
+}
+
+.button:hover {
+    opacity: 0.5;
+}
+
+.button__subscribe--light:disabled,
+.button__subscribe--light.button:disabled {
+
+  background-color: rgb(235, 231, 231); 
+  cursor: not-allowed;
+}

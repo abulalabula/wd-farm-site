@@ -1,0 +1,138 @@
+.home__h2--light {
+    text-align: center; 
+    padding: 2rem; 
+    font-size: 2.5rem;
+    margin-bottom: 1rem; 
+    color: #283F3B; 
+}
+
+.home__h2--dark {
+    text-align: center; 
+    padding: 2rem; 
+    font-size: 2.5rem;
+    margin-bottom: 1rem; 
+    color: whitesmoke; 
+}
+    
+.home__intro--light {
+    text-align: center; 
+    padding: 1.5rem; 
+    font-size: 1.5rem; 
+    color: #283F3B; 
+    margin-bottom: 2rem; 
+}
+
+.home__intro--dark {
+    text-align: center; 
+    padding: 1.5rem; 
+    font-size: 1.5rem; 
+    color: whitesmoke; 
+    margin-bottom: 2rem; 
+}
+
+.home__features {
+    text-align: center; 
+    padding: 2rem; 
+    background-color: #556F44; 
+    color: #283F3B; 
+    margin-bottom: 6rem; 
+
+    margin: 4rem auto;
+    justify-self: center;
+    height: 100%;
+}
+
+.home__features h3, .home__info h3 {
+    color: whitesmoke;
+    margin: 0.5rem;
+    font-size: 1.8rem; 
+}
+
+#skiptomaincontent {
+    left: -30%;
+    position: absolute;
+    transform: translateY(-100%);
+}
+
+#skiptomaincontent:focus {
+    transform: translateY(0%);
+}
+
+.home__cards, 
+.home__info--text {
+    font-size: 1.3rem; 
+    color: whitesmoke;
+}
+
+.home__features li {
+    margin-bottom: 1rem;
+}
+
+.home__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); 
+    grid-column: span 12; 
+
+    padding: 0;
+    gap: 0.5rem;
+
+    list-style-type: none;
+}
+
+.home__cards {
+    /* display: flex;
+    flex-direction: column; */
+
+    /* display: grid;
+    grid-template-columns: repeat(12, 1fr);  */
+
+    grid-column: span 4 ;
+    background-color: #95BF74;
+
+    height: 100%;
+    border: 0.5rem solid #659B5E;
+    border-radius: 1rem;
+
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    /* grid-column: span 4; */
+    background-color: #ac9321c2;
+
+    border: 0.5rem solid #7cb0cc;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.home__info {
+    text-align: center; 
+    padding: 2rem; 
+    background-color: #556F44; 
+    color: #283F3B; 
+    top: 10rem; 
+    /* margin-bottom: 2rem;  */
+
+    /* margin: 4rem auto; */
+    justify-self: center;
+    height: 100%;
+    
+}
+
+@media (min-width: 50rem) {
+    /* .card {
+        display: flex;
+        flex-direction: column;
+    
+        background-color: #6291aa;
+    
+        border: 0.5rem solid #7cb0cc;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    } */
+
+} 

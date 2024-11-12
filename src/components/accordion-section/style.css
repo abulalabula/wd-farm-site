@@ -1,0 +1,28 @@
+.accordion__section {
+    margin-bottom: 1rem;
+}
+
+.accordion__title {
+    background-color: #eee;
+    border: none;
+    padding: 1rem;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: white;
+    padding: 0 1rem;
+}
+
+.accordion__content.open {
+    max-height: 100rem; 
+    padding: 1rem;
+}

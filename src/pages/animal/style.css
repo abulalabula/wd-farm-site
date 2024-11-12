@@ -1,0 +1,24 @@
+.animal__filter {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto;
+    max-width: 300px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1rem, 1fr));
+    gap: 1rem;
+    justify-items: center;
+}
+
+.gallery__item {
+    text-align: center; 
+}
+
+.animal__image {
+    max-width: 100%; 
+    height: auto; 
+    gap: 1rem;
+    border-radius: 1rem; 
+}

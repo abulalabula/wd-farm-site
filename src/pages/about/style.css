@@ -1,0 +1,83 @@
+
+.about--light {
+    background-color: whitesmoke;
+    color: black;
+    padding: 2rem; 
+}
+.about--dark {
+    color: whitesmoke;
+    background-color: black;
+    padding: 2rem; 
+}
+
+.about__title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem; 
+    color: #283F3B; 
+}
+
+.about__intro {
+    font-size: 1.2rem; 
+    margin-bottom: 2rem; 
+    color: #283F3B; 
+    max-width: 50rem; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.about--dark .about__title,
+.about--dark .about__intro {
+    color: whitesmoke; 
+}
+
+
+
+
+
+.gg-menu {
+    transform: scale(var(--ggs,1))
+}
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+.gg-menu::after {
+    top: 6px
+}
+
+.subscription__title {
+
+    text-align: center; 
+    color: #283F3B; 
+    margin-bottom: 1rem; 
+}
+
+.subscription__area {
+
+    text-align: center; 
+    padding: 2rem; 
+}
+
+.subscription__title--light {
+    font-size: 1.5rem;
+    color: #283F3B; 
+}
+
+.subscription__title--dark {
+    font-size: 1.5rem;
+    color: whitesmoke;
+}

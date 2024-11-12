@@ -1,0 +1,94 @@
+.Shop {
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 2rem; 
+    
+}
+
+.shop__title--light {
+    /* color: #6b8f71;  */
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.shop__title--dark {
+    color: whitesmoke; 
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+.accordion-section {
+    
+    align-items: center;
+    border: 1px solid #d3d3d3;
+    border-radius: 1rem; 
+    margin-bottom: 1rem;
+    padding: 1rem; 
+    background-color: #f7f5f2; 
+}
+
+.accordion__pic {
+    max-width: 10%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin-bottom: 1rem; 
+}
+
+.accordion-section p {
+    line-height: 1rem; 
+    color: #606060;
+}
+
+.accordion-title {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #50772a; 
+    margin-bottom: 0.5rem; 
+
+    transition: all 0.5s ease;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out; 
+}
+
+.product-option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.product-option p {
+    margin: 0;
+    flex: 1;
+}
+
+.product-option label {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.product-option input {
+    width: 50px;
+    padding: 5px;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.product-option button {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-option button:hover {
+    background-color: #218838;
+}
